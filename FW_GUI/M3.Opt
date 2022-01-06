@@ -1,0 +1,94 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Source Group 1),1,0,0
+
+OPTFFF 1,1,2,0,0,0,0,0,<.\startup_stm32f10x_md_vl.s><startup_stm32f10x_md_vl.s> 
+OPTFFF 1,2,1,637534209,0,1,12,0,<.\main.c><main.c> 
+OPTFFF 1,3,1,0,0,0,0,0,<.\libs\core_cm3.c><core_cm3.c> 
+OPTFFF 1,4,5,0,0,102,118,0,<.\libs\core_cm3.h><core_cm3.h> 
+OPTFFF 1,5,1,0,0,0,0,0,<.\libs\misc.c><misc.c> 
+OPTFFF 1,6,5,0,0,0,0,0,<.\libs\misc.h><misc.h> 
+OPTFFF 1,7,5,33554432,0,569,583,0,<.\libs\stm32f10x.h><stm32f10x.h> 
+OPTFFF 1,8,1,905969664,0,205,224,0,<.\libs\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 1,9,5,0,0,0,0,0,<.\libs\stm32f10x_adc.h><stm32f10x_adc.h> 
+OPTFFF 1,10,1,0,0,0,0,0,<.\libs\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 1,11,5,0,0,0,0,0,<.\libs\stm32f10x_bkp.h><stm32f10x_bkp.h> 
+OPTFFF 1,12,1,0,0,0,0,0,<.\libs\stm32f10x_can.c><stm32f10x_can.c> 
+OPTFFF 1,13,5,0,0,0,0,0,<.\libs\stm32f10x_can.h><stm32f10x_can.h> 
+OPTFFF 1,14,1,0,0,0,0,0,<.\libs\stm32f10x_cec.c><stm32f10x_cec.c> 
+OPTFFF 1,15,5,0,0,0,0,0,<.\libs\stm32f10x_cec.h><stm32f10x_cec.h> 
+OPTFFF 1,16,5,0,0,0,0,0,<.\libs\stm32f10x_conf.h><stm32f10x_conf.h> 
+OPTFFF 1,17,1,0,0,0,0,0,<.\libs\stm32f10x_crc.c><stm32f10x_crc.c> 
+OPTFFF 1,18,5,0,0,0,0,0,<.\libs\stm32f10x_crc.h><stm32f10x_crc.h> 
+OPTFFF 1,19,1,0,0,0,0,0,<.\libs\stm32f10x_dac.c><stm32f10x_dac.c> 
+OPTFFF 1,20,5,0,0,0,0,0,<.\libs\stm32f10x_dac.h><stm32f10x_dac.h> 
+OPTFFF 1,21,1,0,0,0,0,0,<.\libs\stm32f10x_dbgmcu.c><stm32f10x_dbgmcu.c> 
+OPTFFF 1,22,5,0,0,0,0,0,<.\libs\stm32f10x_dbgmcu.h><stm32f10x_dbgmcu.h> 
+OPTFFF 1,23,1,0,0,0,0,0,<.\libs\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 1,24,5,0,0,0,0,0,<.\libs\stm32f10x_dma.h><stm32f10x_dma.h> 
+OPTFFF 1,25,1,0,0,0,0,0,<.\libs\stm32f10x_exti.c><stm32f10x_exti.c> 
+OPTFFF 1,26,5,0,0,0,0,0,<.\libs\stm32f10x_exti.h><stm32f10x_exti.h> 
+OPTFFF 1,27,1,0,0,0,0,0,<.\libs\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 1,28,5,0,0,0,0,0,<.\libs\stm32f10x_flash.h><stm32f10x_flash.h> 
+OPTFFF 1,29,1,0,0,0,0,0,<.\libs\stm32f10x_fsmc.c><stm32f10x_fsmc.c> 
+OPTFFF 1,30,5,0,0,0,0,0,<.\libs\stm32f10x_fsmc.h><stm32f10x_fsmc.h> 
+OPTFFF 1,31,1,0,0,0,0,0,<.\libs\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 1,32,5,0,0,0,0,0,<.\libs\stm32f10x_gpio.h><stm32f10x_gpio.h> 
+OPTFFF 1,33,1,0,0,0,0,0,<.\libs\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 1,34,5,0,0,0,0,0,<.\libs\stm32f10x_i2c.h><stm32f10x_i2c.h> 
+OPTFFF 1,35,1,0,0,0,0,0,<.\libs\stm32f10x_it.c><stm32f10x_it.c> 
+OPTFFF 1,36,5,0,0,0,0,0,<.\libs\stm32f10x_it.h><stm32f10x_it.h> 
+OPTFFF 1,37,1,0,0,0,0,0,<.\libs\stm32f10x_iwdg.c><stm32f10x_iwdg.c> 
+OPTFFF 1,38,5,0,0,0,0,0,<.\libs\stm32f10x_iwdg.h><stm32f10x_iwdg.h> 
+OPTFFF 1,39,1,0,0,0,0,0,<.\libs\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 1,40,5,0,0,0,0,0,<.\libs\stm32f10x_pwr.h><stm32f10x_pwr.h> 
+OPTFFF 1,41,1,285212672,0,364,390,0,<.\libs\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 1,42,5,1040187392,0,93,107,0,<.\libs\stm32f10x_rcc.h><stm32f10x_rcc.h> 
+OPTFFF 1,43,1,0,0,0,0,0,<.\libs\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 1,44,5,0,0,0,0,0,<.\libs\stm32f10x_rtc.h><stm32f10x_rtc.h> 
+OPTFFF 1,45,1,0,0,0,0,0,<.\libs\stm32f10x_sdio.c><stm32f10x_sdio.c> 
+OPTFFF 1,46,5,0,0,0,0,0,<.\libs\stm32f10x_sdio.h><stm32f10x_sdio.h> 
+OPTFFF 1,47,1,0,0,0,0,0,<.\libs\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 1,48,5,0,0,0,0,0,<.\libs\stm32f10x_spi.h><stm32f10x_spi.h> 
+OPTFFF 1,49,1,0,0,0,0,0,<.\libs\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 1,50,5,0,0,0,0,0,<.\libs\stm32f10x_tim.h><stm32f10x_tim.h> 
+OPTFFF 1,51,1,0,0,0,0,0,<.\libs\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 1,52,5,0,0,0,0,0,<.\libs\stm32f10x_usart.h><stm32f10x_usart.h> 
+OPTFFF 1,53,1,0,0,0,0,0,<.\libs\stm32f10x_wwdg.c><stm32f10x_wwdg.c> 
+OPTFFF 1,54,5,0,0,0,0,0,<.\libs\stm32f10x_wwdg.h><stm32f10x_wwdg.h> 
+OPTFFF 1,55,1,0,0,0,0,0,<.\libs\system_stm32f10x.c><system_stm32f10x.c> 
+OPTFFF 1,56,5,0,0,0,0,0,<.\libs\system_stm32f10x.h><system_stm32f10x.h> 
+
+
+TARGOPT 1, (Target 1)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\Listings\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTBL 0,(Reference Manual)<DATASHTS\ST\STM32F10xxx.PDF>
+  OPTBL 1,(Technical Reference Manual)<datashts\arm\cortex_m3\r1p1\DDI0337E_CORTEX_M3_R1P1_TRM.PDF>
+  OPTBL 2,(Generic User Guide)<datashts\arm\cortex_m3\r2p1\DUI0552A_CORTEX_M3_DGUG.PDF>
+  OPTDL (SARMCM3.DLL)(-REMAP)(DCM.DLL)(-pCM3)(SARMCM3.DLL)()(TCM.DLL)(-pCM3)
+  OPTDBG 1884157,0,()()()()()()()()()() (BIN\UL2CM3.DLL)()()()
+  OPTKEY 0,(UL2CM3)(UL2CM3(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000))
+  OPTDF 0x2
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

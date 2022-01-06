@@ -1,0 +1,9 @@
+.\stm32f0xx_it.o: STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\stm32f0xx_it.c
+.\stm32f0xx_it.o: STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\stm32f0xx_it.h
+.\stm32f0xx_it.o: STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\main.h
+.\stm32f0xx_it.o: .\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
+.\stm32f0xx_it.o: .\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Include\core_cm0.h
+.\stm32f0xx_it.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\stm32f0xx_it.o: .\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Include\core_cmInstr.h
+.\stm32f0xx_it.o: .\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Include\core_cmFunc.h
+.\stm32f0xx_it.o: .\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h

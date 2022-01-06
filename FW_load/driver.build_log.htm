@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Jirka\Dokumenty\IN2\driver.uvproj
+Project File Date:  02/01/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(6): error:  #148: variable "SystemCoreClock" has already been initialized
+  uint32_t SystemCoreClock = 8000000;
+main.c(8): error:  #247: function "SystemInit" has already been defined
+  void SystemInit(void)
+main.c(25): error:  #268: declaration may not appear after executable statement in block
+        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
+main.c(25): error:  #20: identifier "System" is undefined
+        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
+main.c(26): error:  #79: expected a type specifier
+        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
+main.c: 0 warnings, 5 errors
+".\driver.axf" - 5 Error(s), 0 Warning(s).
+Target not created
+king...
+Program Size: Code=304 RO-data=196 RW-data=0 ZI-data=1632  
+".\driver.axf" - 0 Error(s), 0 Warning(s).
